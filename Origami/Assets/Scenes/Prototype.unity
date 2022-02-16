@@ -2026,7 +2026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolers:
   - Cloud
-  heights: 050000000000000000000000
+  heights: 05000000060000000b000000
   maxHorizontalPosition: 4.5
   cloudHeightData:
   - minNbCloud: 3
@@ -2034,14 +2034,26 @@ MonoBehaviour:
     minCloudHeight: 3
     maxCloudHeight: 5
     maxCloudHorizontalPosition: 4
-    positions: 0000000000000000000000000000000000000000
+    positions: 
+  - minNbCloud: 2
+    maxNbCloud: 4
+    minCloudHeight: 6
+    maxCloudHeight: 10
+    maxCloudHorizontalPosition: 4
+    positions: 
+  - minNbCloud: 1
+    maxNbCloud: 3
+    minCloudHeight: 11
+    maxCloudHeight: 14
+    maxCloudHorizontalPosition: 4
+    positions: 
   cloudData:
     minCloudScale: 10
     maxCloudScale: 15
   leveldata:
     minHorizontalPosition: 0
     maxHorizontalPosition: 0
-    areaSize: 50
+    areaSize: 200
 --- !u!1 &1775481572 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 79bb32fb04e71ed499c730f359be5f56,

@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using UnityEngine;
 
@@ -25,12 +26,14 @@ public class Tools : MonoBehaviour
         array.ToArray();
     }
 
-    public void FillArray (int minValue, int maxValue, int[] array)
+    public int[] FillArray (int minValue, int maxValue, int[] array)
     {
-        array = new int[maxValue];
-        for (int i = minValue; i < maxValue; i++)
+        array = new int[maxValue+1];
+        for (int i = minValue; i < maxValue+1; i++)
         {
             array[i] = i;
         }
+
+        return array;
     }
 }
